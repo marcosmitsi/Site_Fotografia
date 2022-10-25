@@ -18,12 +18,11 @@
   <link rel="preconnect" href="#" crossorigin>
   <link href="assets/css/fonts_googleapis.css" rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <!-- libs CSS Files -->
+  <link href="assets/libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/libs/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/libs/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/libs/glightbox/css/glightbox.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
@@ -143,28 +142,28 @@
         <div class="row justify-content-center mt-4">
 
           <div class="col-lg-9">
-            <form action="#" method="post" role="form" class="php-email-form">
+            <form action="assets/functions/sendMail.php" method="POST" role="form" class="php-email-form">
 
 
               <div class="row">
                 <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Seu Nome" required>
+                  <input type="text" name="name" class="form-control"  placeholder="Seu Nome" required>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Seu E-mail" required>
+                  <input type="email" class="form-control" name="email"  placeholder="Seu E-mail" required>
                 </div>
               </div>
 
               <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Assunto" required>
+                <input type="text" class="form-control" name="subject"  placeholder="Assunto" required>
               </div>
 
               <div class="form-group mt-3">
                 <textarea class="form-control" name="message" rows="5" placeholder="Mensagem" required></textarea>
-              </div>
+              </div><br>
 
 
-              <div class="text-center"><button type="submit">Enviar Mensagem</button></div>
+              <div class="text-center"><button type="submit" name="SendAddMsg" value="Enviar">Enviar Mensagem</button></div>
             </form>
           </div><!-- End Contact Form -->
 
@@ -197,14 +196,11 @@
   <div id="preloader">
     <div class="line"></div>
   </div>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-
+  <!-- libs JS Files -->
+  <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/libs/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/libs/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/libs/aos/aos.js"></script>
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
