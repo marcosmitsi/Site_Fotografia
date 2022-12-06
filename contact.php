@@ -41,21 +41,22 @@
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid d-flex align-items-center justify-content-between">
 
-      <a href="index.php" class="logo d-flex align-items-center  me-auto me-lg-0">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <i class="bi bi-camera"></i>
-        <h1>Mitsi Fotografia</h1>
-      </a>
+        <a href="index.php" class="logo d-flex align-items-center  me-auto me-lg-0">
+            <!-- Uncomment the line below if you also wish to use an image logo -->
+            <!-- <img src="assets/img/logo.png" alt=""> -->
+            <!--<i class="bi bi-camera"></i>-->
+            <img src="assets/img/gallery/logob.png">
+            <!-- <h1>Mitsi Fotografia</h1>-->
+        </a>
 
       <nav id="navbar" class="navbar">
         <ul>
           <li><a href="index.php">Home</a></li>
-          <!--<li><a href="about.html">About</a></li>
+          <!--<li><a href="about.html">About</a></li>-->
           <li class="dropdown"><a href="#"><span>Gallery</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
-              <li><a href="gallery.html">Nature</a></li>
-              <li><a href="gallery.html">People</a></li>
+              <li><a href="gallery-single/gallery-single.php">Gestante Nataly</a></li>
+              <!--<li><a href="gallery.html">People</a></li>
               <li><a href="gallery.html">Architecture</a></li>
               <li><a href="gallery.html">Animals</a></li>
               <li><a href="gallery.html">Sports</a></li>
@@ -66,19 +67,20 @@
                   <li><a href="#">Sub Menu 2</a></li>
                   <li><a href="#">Sub Menu 3</a></li>
                 </ul>
-              </li>
+              </li>-->
             </ul>
           </li>
-          <li><a href="services.html">Services</a></li>-->
+          <!--<li><a href="services.html">Services</a></li>-->
           <li><a href="#" class="active">Contato</a></li>
         </ul>
       </nav><!-- .navbar -->
 
       <div class="header-social-links">
-        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+        <!--<a href="#" class="twitter"><i class="bi bi-twitter"></i></a>-->
+       <!-- <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>-->
+        <a href="https://www.instagram.com/mitsifotografia/" class="instagram" target=”_blank”><i class="bi bi-instagram"></i></a>
+        <!--<a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>-->
+        <a class="linkedin" aria-label="Chat on WhatsApp" href="https://wa.me/5511957917983" target="_blank"><i class="bi bi-whatsapp"></i></i></a>
       </div>
       <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
       <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
@@ -112,7 +114,7 @@
               <i class="bi bi-envelope flex-shrink-0"></i>
               <div>
                 <h4>Email:</h4>
-                <p>karla@mitsi.com.br</p>
+                <p>karla@fotografia.mitsi.com.br</p>
               </div>
             </div>
           </div><!-- End Info Item -->
@@ -121,7 +123,7 @@
             <div class="info-item d-flex">
               <i class="bi bi-phone flex-shrink-0"></i>
               <div>
-                <h4>Cell:</h4>
+                <h4>Cel:</h4>
                 <p><a href="tel:+5511957917983">55 (11)95791-7983</a></p>
               </div>
             </div>

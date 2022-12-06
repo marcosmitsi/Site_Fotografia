@@ -21,16 +21,16 @@ try {
     //Server settings
     //$mail->SMTPDebug = SMTP::DEBUG_SERVER;
     $mail->isSMTP();
-    $mail->Host       = '';
+    $mail->Host       = 'smtp.titan.email';
     $mail->SMTPAuth   = true;
-    $mail->Username   = '';
-    $mail->Password   = '';
+    $mail->Username   = 'karla@fotografia.mitsi.com.br';
+    $mail->Password   = 'k4rl4m1ts1';
     $mail->SMTPSecure = 'ssl';
     $mail->Port       = 465;
 
     //Recipients
-    $mail->setFrom('', 'MSG Via Site');
-    $mail->addAddress('', 'Marcos Mitsi');     //Add a recipient
+    $mail->setFrom('karla@fotografia.mitsi.com.br', 'MSG Via Site');
+    $mail->addAddress('karla@fotografia.mitsi.com.br', 'karla Mitsi');     //Add a recipient
     $mail->addReplyTo($dadosForm['email'], $dadosForm['name']);
     
     //Configuração do email

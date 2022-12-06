@@ -31,7 +31,7 @@
   <!-- =======================================================
   * Template Name: Mitsi Fotografia - v1.0.0
   * Template URL: https://fotografia.mitsi.com.br
-  * Author: marcos Mitsi
+  * Author: Marcos Mitsi
   * License: Livre
   ======================================================== -->
 </head>
@@ -45,18 +45,19 @@
       <a href="#" class="logo d-flex align-items-center  me-auto me-lg-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <i class="bi bi-camera"></i>
-        <h1>Mitsi Fotografia</h1>
+       <!-- <i class="bi bi-camera"></i>-->
+          <img src="assets/img/gallery/logob.png">
+       <!-- <h1>Mitsi Fotografia</h1>-->
       </a>
 
       <nav id="navbar" class="navbar">
         <ul>
           <li><a href="#" class="active">Home</a></li>
-          <!--<li><a href="#">About</a></li>
+          <!--<li><a href="#">About</a></li>-->
           <li class="dropdown"><a href="#"><span>Gallery</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
-              <li><a href="#">Nature</a></li>
-              <li><a href="#">People</a></li>
+              <li><a href="gallery-single/gallery-single.php">Gestante Nataly</a></li>
+              <!--<li><a href="#">People</a></li>
               <li><a href="#">Architecture</a></li>
               <li><a href="#">Animals</a></li>
               <li><a href="#">Sports</a></li>
@@ -71,15 +72,19 @@
             </ul>
           </li>
           <li><a href="#">Services</a></li>-->
-          <li><a href="contact.php">Contato</a></li>
+            </ul>
+          </li>
+            <!--<li><a href="#">Services</a></li>-->
+            <li><a href="contact.php">Contato</a></li>
         </ul>
       </nav><!-- .navbar -->
 
       <div class="header-social-links">
-        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+        <!--<a href="#" class="twitter"><i class="bi bi-twitter"></i></a>-->
+        <!--<a href="#" class="facebook"><i class="bi bi-facebook"></i></a>-->
+        <a href="https://www.instagram.com/mitsifotografia/" class="instagram" target=”_blank”><i class="bi bi-instagram"></i></a>
+        <!--<a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>-->
+        <a class="linkedin" aria-label="Chat on WhatsApp" href="https://wa.me/5511957917983" target="_blank"><i class="bi bi-whatsapp"></i></i></a>
       </div>
       <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
       <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
@@ -106,13 +111,13 @@
               <img src="assets/img/gallery/gallery-10.jpg" alt="">
             </div>
             <div class="swiper-slide">
-              <img src="assets/img/gallery/gallery-11.jpg" alt="">
+              <img src="assets/img/gallery/gallery-7.jpg" alt="">
             </div>
             <div class="swiper-slide">
-              <img src="assets/img/gallery/gallery-12.jpg" alt="">
+              <img src="assets/img/gallery/gallery-5.jpg" alt="">
             </div>
             <div class="swiper-slide">
-              <img src="assets/img/gallery/gallery-13.jpg" alt="">
+              <img src="assets/img/gallery/gallery-2.jpg" alt="">
             </div>
 
           </div>
@@ -130,8 +135,8 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-6 text-center">
-          <h2>A <span>Karla Mitsi</span>é uma Fotografa profissional</h2>
-          <p>Convido você a descobrir o quanto incrível que você é através de uma sessão que mudará a forma como se vê</p>
+          <h2>Você quer uma <span>fotógrafa</span> que além de profissional é inovadora?</h2>
+          <p>Então te convido a conhecer <strong> Karla Mitsi</strong>, uma profissional que em uma sessão mudará a forma como você se vê, fazendo você descobrir o quão incrível é!</p>
           <a href="contact.php" class="btn-get-started">Agende sua Sessão</a>
         </div>
       </div>
@@ -205,8 +210,8 @@
             <div class="gallery-item h-100">
               <img src="assets/img/gallery/gallery-18.jpg" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/gallery-18.jpg" title="Gallery 7" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-                <a href="#" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <a href="assets/img/gallery/gallery-18.jpg" title="Nataly 7" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="gallery-single/gallery-single.php" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
           </div><!-- End Gallery Item -->
@@ -223,8 +228,8 @@
             <div class="gallery-item h-100">
               <img src="assets/img/gallery/gallery-9.jpg" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/gallery-9.jpg" title="Gallery 9" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-                <a href="#" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <a href="assets/img/gallery/gallery-9.jpg" title="Nataly 9" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="gallery-single/gallery-single.php" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
           </div><!-- End Gallery Item -->
